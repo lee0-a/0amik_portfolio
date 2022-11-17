@@ -16,12 +16,14 @@ body{
     color: #222;
     font-size: 1rem;
     font-family: 'Pretendard Variable';
+   
 }
 
 a{
     text-decoration: none;
     color: #222;
 }
+
 
 header{
     width: 100%;
@@ -121,7 +123,28 @@ header{
     top: 36.6rem;
     right: 14.5rem;
 }
-
+.section01_me::after {
+    content: "ClickMe";
+    font-size: 1.3em;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+    background: transparent;
+    border: 0.01rem dashed #222;
+    font-family: 'Italiana', serif;
+    font-weight: bold;
+    color: #333;
+    border-radius: 1.5em;
+    position: absolute;
+    top: 0.6em;
+    left: 280%;
+    opacity: 0;
+    transform: translate(-65%, 80%);
+    transition: 0.4s opacity cubic-bezier(0.33, 1, 0.68, 1), 0.4s transform cubic-bezier(0.33, 1, 0.68, 1);
+  }
+  .section01_me:hover::after {
+    opacity: 1;
+    transform: translatex(-75%) 
+  }
 .sectoinWrap01 .txt{
     position: absolute;
     top: 32.35rem;
@@ -656,6 +679,8 @@ header{
     right: 0;
     width: 1rem;
     z-index: 2;
+    cursor: pointer;
+    display: none;
 }
 .swiper-button-prev{
     position: absolute;
@@ -664,6 +689,8 @@ header{
     width: 1rem;
     transform: rotate(180deg);
     z-index: 2;
+    display: none;
+    cursor: pointer;
 }
 .fadein img{
     opacity:0.4;
@@ -683,7 +710,20 @@ filter: none;
 transition: 1s ease;
 }
 
-
+.btn-top{
+    position: fixed;
+    bottom:5rem ;
+    right: 10rem;
+}
+.btn-top span{
+    background-color: #9FEB9B;
+    border: 0.05rem solid #222;
+    border-radius: 2rem;
+    padding: 1rem 0.7rem;
+    font-family: 'Italiana', serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
 
 /*footer start*/
 footer{
