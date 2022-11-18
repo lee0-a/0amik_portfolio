@@ -60,6 +60,7 @@ header{
     color: transparent;
     -webkit-text-stroke: 0.001rem #222;
 }
+
 #section01{
     width: 100%;
     height: 45rem;
@@ -407,7 +408,7 @@ header{
 #section03{
     width: 100%;
     height: 41.65rem;
-    border-bottom: 0.1rem solid #222;   
+    
 }
 .sectoinWrap03{
     width: 60rem;
@@ -477,6 +478,10 @@ header{
 .catBox .navi li a:hover{
     opacity: 0.5;
 }
+.navi .active{
+    opacity: 0.5;
+}
+
 .project{
     width: 39.05rem;
 
@@ -733,6 +738,7 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-top: 0.1rem solid #222;
 }
 footer span{
     
@@ -741,3 +747,140 @@ footer span{
 .mail{
     padding-right: 0.5rem;
 }
+
+/*sob01 start*/
+.sub01Wrap{
+    width: 60rem;
+    height: 60rem;
+    margin: 0 auto;
+    
+}
+.sub01Wrap .h1{
+    font-size: 4.8rem;
+    font-family: 'Italiana', serif;
+    margin: 6rem 0 0.8rem 0;
+}
+.sub01Wrap>p{
+    font-weight: 400;
+    padding-left: 1rem;
+}
+.sub01Wrap .list{
+   
+    font-family: 'Italiana', serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+    margin-right: 9rem;
+}
+.list::after{
+    content: "";
+    display: block;
+    width: 6.55rem;
+    height: 0.05rem;
+    border-top: 0.05rem solid #222;
+    position: absolute;
+    top: 0.9rem;
+    left: 3.5rem;
+}
+.content{
+    display: flex;
+    margin-top: 6rem;
+    position: relative;
+
+}
+.content .listBG{
+    position: absolute;
+    top: -0.8rem;
+    left: -0.8rem;
+}
+.tabMenu li{
+    font-family: 'Italiana', serif;
+    font-weight: bold;
+    font-size: 1.2rem;
+    line-height: 2.3rem;
+}
+.tabMenu .active{
+    font-family: 'Italiana', serif;
+    color: #9FEB9B;
+    -webkit-text-stroke: 0.01rem #222;
+    font-weight: bold;
+    font-size: 1.5rem;
+
+}
+.tabMenu .active::after {
+    content: "dfdffdfd";
+    font-size: 1.3em;
+    padding: 1rem;
+    letter-spacing: 0.1rem;
+    background: transparent;
+    border: 0.01rem dashed #222;
+    font-family: 'Italiana', serif;
+    font-weight: bold;
+    color: #333;
+    border-radius: 1.5em;
+    position: absolute;
+    top: 0.6em;
+    left: 0;
+    opacity: 0;
+    transform: translate(-65%, 80%);
+    /*transition: 0.4s opacity cubic-bezier(0.33, 1, 0.68, 1), 0.4s transform cubic-bezier(0.33, 1, 0.68, 1);*/
+  }
+.portfolioBox>img{
+    width: 14.45rem;
+    border: 0.05rem solid #222;
+    margin-right: 2rem;
+}
+
+
+  .portfolioBox {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    margin: 0;
+    /*transition: 1s;
+    transition-timing-function: ease-in;*/
+    visibility: hidden;
+    opacity: 0;
+    background: #F7FAEE;
+    height: 33rem;
+    display: flex;
+    
+  }
+  .explainBox .active {
+    visibility: visible;
+    opacity: 1;
+    position: absolute;
+    top: 9rem;
+    left: 11rem;
+  }
+  .explanation .h2{
+    font-family: 'Italiana', serif;
+    font-weight: bold;
+    color: #333;
+    font-size: 2.5rem;
+    margin-bottom: 3.5rem;
+    border-top:0.01rem solid #222;
+    width: 6.55rem;
+    padding-top: 1rem;
+  }
+  .explanation p{
+    line-height: 2rem;
+    
+    margin-bottom: 2rem;
+  }
+  .explanation span{
+    font-weight: 600;
+    
+  }
+  .explanation .btn{
+    margin-top: 2.85rem;
+    font-family: 'Italiana', serif;
+    font-weight: bold;
+    color: #333;
+    font-size: 1.3rem;
+    padding: 0.8rem 1rem 0.8rem 2.5rem;
+    background-color: #DBF7D7;
+    border: 0.01rem solid #222;
+    border-radius: 2rem;
+    width: 11rem;
+  }

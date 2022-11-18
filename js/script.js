@@ -1,4 +1,5 @@
 $(document).ready(function(){
+ 
 
   let $menu     = $('.nav__menu li'),
   $contents = $('.scroll'),
@@ -49,6 +50,10 @@ btnTop.on('click','a', function(e){
 }(window, window.jQuery));
 
 
+$('.navi').on('click', 'li', function() {
+  $(this).addClass('active').siblings().removeClass('active');
+});
+
 
 
     $('.section01_me>a').click(function(){
@@ -84,10 +89,22 @@ btnTop.on('click','a', function(e){
         },
       });
 
+//sub01 tab menu
+      const btn = document.getElementsByClassName("tabbtn");
+const Box = document.getElementsByClassName("portfolioBox");
 
-      
+for (var i = 0; i < btn.length; i++) {
+  btn[i].addEventListener("click", function() {
+    document.querySelectorAll(".portfolioBox.active").forEach(function(item) {
+      item.classList.remove("active");
+    });
+    Box[this.value].className += " active";
+  })
+}
 
-       
+$('.tabMenu').on('click', 'li', function() {
+  $(this).addClass('active').siblings().removeClass('active');
+});       
 
 
 
