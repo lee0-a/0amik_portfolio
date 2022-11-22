@@ -1,4 +1,6 @@
+
 $(document).ready(function(){
+  
  
 
   let $menu     = $('.nav__menu li'),
@@ -102,9 +104,13 @@ for (var i = 0; i < btn.length; i++) {
   })
 }
 
-$('.tabMenu').on('click', 'li', function() {
-  $(this).addClass('active').siblings().removeClass('active');
-});       
+$('.tabMenu').on('click', '.tabbtn', function() {
+  $('.tabbtn').removeClass('active');
+  $(this).addClass('active');
+});     
+
+
+
 
 
 
