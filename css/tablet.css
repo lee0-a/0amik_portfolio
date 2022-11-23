@@ -1,0 +1,249 @@
+@charset "utf-8";
+header{
+    height: 3.2rem;
+}
+.headerWrap{
+    width: 32.5rem;
+    height: 100%;
+   
+}
+.headerWrap img{
+    width: 80%;
+   
+}
+.headerWrap ul{
+    justify-content: space-around;
+    font-size: 0.8rem;
+}
+#section01{
+    height: 33.5rem;
+}
+.sectoinWrap01{
+    width: 32.5rem;
+    background-position:  5.6rem 5rem;
+    background-size:24.7rem 26.6rem ;
+}
+.first{
+    font-size: 3rem;
+}
+.sec{
+   font-size: 7.7rem;
+   margin-top: -1.4rem;
+}
+.circle{
+    top: 9.5rem;
+    left: -0.8rem;
+}
+.circle img{
+    width: 3.9rem;
+    height: 3.9rem;
+}
+.sectoinWrap01 .txt{
+    top: 25.35rem;
+    right: -0.1rem;
+}
+.sectoinWrap01 .txt img{
+    width: 10rem;
+}
+.sectoinWrap01 .flower01{
+    top: 21rem;
+    right: 1.8rem;
+}
+.sectoinWrap01 .flower01 img, .sectoinWrap01 .flower02 img, .sectoinWrap01 .flower03 img{
+    width: 80%;
+}
+.sectoinWrap01 .flower02{
+    top: 26rem;
+    right: 0rem;
+}
+.sectoinWrap01 .flower03{
+    top: 29rem;
+    right: 8rem;
+}
+.section01_me{
+    top: 28rem;
+    right: 1.5rem;
+}
+.section01_me img{
+    width: 65%;
+}
+.section01_me::after {
+    font-size: 1em;
+    padding: 0.4rem 0.8rem;
+    top: 8em;
+    left: 100%;
+  }
+  .section01_me:hover::after {
+    opacity: 1;
+    transform: translatex(-75%) 
+  }
+.grass{
+    top: 33.7rem;
+    right: 1.4rem;
+}
+.modalWrap{
+    width:32.5rem;
+   
+} 
+.modal{
+    width:25rem;
+    height: 26.6rem ;
+    background-size:25rem 26.6rem ;
+    top: 8.2rem;
+    left: 5.5rem;
+}
+.modal .h1 {
+    font-size: 2.5rem;
+    top: 5.2rem;
+    left: 7.5rem;
+}
+.modal p {
+    top: 8.6rem;
+    left: 4.5rem;
+    font-size: 0.8rem;
+    line-height: 1.5rem;
+}
+.modal .btn {
+    top: 4rem;
+    right: 5.5rem;
+    width: 0.8rem;
+    height: 0.8rem;
+}
+.modal .twinkle_01 {
+    top: 20rem;
+    left: 6.5rem;
+   
+}
+.modal .twinkle_02 {
+    top: 17rem;
+    left: 16rem;
+   
+}
+
+#section02{
+    height: 51.15rem;
+}
+.sectoinWrap02{
+    width: 32.5rem;
+}
+.mySkillWrap{
+    height: 42.5rem;
+}
+.mySkillWrap .h1{
+    font-size: 2.3rem;
+}
+.myskill_box{
+    display: block;
+}
+.myskill_box>div{
+    width: 24.3rem;
+    margin: 2rem auto;
+}
+.tool .h2, .license .h2{
+    font-size: 1.2rem;
+}
+.tool_box, .license_box{
+    font-size: 0.8rem;
+    padding-top: 1.8rem;
+}
+.tool_box div{
+    margin-bottom: 1.5rem;
+}
+.mySkillWrap .twinkle_01{
+    top: 2.4rem;
+    left: 21.5rem;
+}
+
+.mySkillWrap .twinkle_02{
+    top: 4.8rem;
+    left: 9.4rem;   
+}
+.mySkillWrap .twinkle_01 img, .mySkillWrap .twinkle_02 img{
+    width: 80%;
+}
+.bar{
+    height: 3.4rem;
+}
+.bar div {
+    font-size: 0.8rem;
+}
+
+
+.sectoinWrap03{
+    width: 32.5rem;
+}
+.sectoinWrap03 .h1{
+    font-size: 2.6rem;
+}
+.h1_BG{
+   
+    top: 4.6rem;
+    left: 7.5em;
+    
+}
+.h1_BG img{
+    width: 80%;
+      
+  }
+  .left_box{
+    width: 11.1rem;
+}
+
+  .about .h2, .cat .h2, .project .h2{
+    font-size: 1.2rem;
+}
+.aboutBox ul li{
+    font-size: 0.7rem;
+}
+.aboutBox ul li .text br{
+    display: none;
+}
+.aboutBox .strong{
+    font-size: 1rem;
+}
+.catBox .navi li{
+    font-size: 1rem;
+}
+.project{
+    width: 18.05rem;
+
+}
+.pub01, .des01, .des02, .des03{
+    display: block;
+    padding-top: 1.4rem;
+    
+}
+.pub01 img, .des01 img, .des02 img, .des03 img{
+    display: none;
+   
+}
+
+.pubBox{width: 100%;}
+.proj_name01, .proj_name02, .proj_name03{
+    position:static;
+    font-size: 1.6rem;
+    padding: 0.7rem 8rem 0.7rem 2rem;
+    border: 0.1rem dashed #333;
+    border-radius: 15rem;
+}
+.proj01, .proj02, .proj03{
+    height: 1.6rem;
+    margin: 0;
+    margin-bottom: 6.5rem;
+    display: block;
+}
+.proj_name01:hover, .proj_name02:hover, .proj_name03:hover{
+    background-color:  #D9DBF4;
+}
+.btn-top{
+    position: fixed;
+    bottom:5rem ;
+    right: 2rem;
+}
+.btn-top span {
+    padding: 0.8rem 0.5rem;
+    font-size: 1rem;
+}
+footer{
+    height: 6.1rem;
+}

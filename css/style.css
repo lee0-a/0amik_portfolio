@@ -433,6 +433,10 @@ header{
     left: 9.2rem;
     
 }
+.h1_BG img{
+  width: 100%;
+    
+}
 .workBox{
     display: flex;
     justify-content: space-between;
