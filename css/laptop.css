@@ -1,0 +1,90 @@
+@charset "utf-8";
+header{
+    height: 3.2rem;
+}
+.headerWrap{
+    width: 50rem;
+    height: 100%;
+   
+}
+#section01 {
+    height: 37.4rem;
+}
+.sectoinWrap01{
+    width: 50rem;
+    background-position:  11.75rem 2.25rem;
+    background-size:30.4rem 32.7rem ;
+}
+.first{
+    font-size: 3.75rem;
+}
+.sec{
+   font-size: 8.91rem;
+   margin-top: -1.7rem;
+}
+.circle {
+    top: 10rem;
+    left: 5.8rem;
+}
+.circle img{
+    width: 4.1rem;
+    height: 4.1rem;
+}
+.sectoinWrap01 .txt {
+    top: 26.35rem;
+    right: 0.5rem;
+}
+.sectoinWrap01 .txt img{
+    width: 83%;
+}
+.sectoinWrap01 .flower01 {
+    top: 21.5rem;
+    right: 5.8rem;
+}
+.sectoinWrap01 .flower01 img, .sectoinWrap01 .flower02 img, .sectoinWrap01 .flower03 img{
+    width: 83%;
+}
+.sectoinWrap01 .flower02 {
+    top: 27rem;
+    right: 2rem;
+}
+.sectoinWrap01 .flower03 {
+    top: 32rem;
+    right: 14rem;
+}
+.section01_me {
+    top: 30rem;
+    right: 8.5rem;
+}
+.section01_me img{
+    width: 83%;
+}
+.section01_me::after {
+    font-size: 1.1em;
+    padding: 0.8rem 1rem;
+    top: 1.5em;
+    left: 250%;
+  }
+  .section01_me:hover::after {
+    opacity: 1;
+    transform: translatex(-75%) 
+  }
+  .grass {
+    top: 37.6rem;
+    right: 8rem;
+}
+
+.sectoinWrap02{
+    width: 50rem;
+}
+.myskill_box>div {
+    width: 19.3rem;
+    font-size: 0.9rem;
+}
+.mySkillWrap .twinkle_01 {
+    left: 16.9rem;
+}
+
+.mySkillWrap .twinkle_02 {
+    left: 31.8rem;
+}

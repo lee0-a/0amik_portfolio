@@ -90,7 +90,7 @@ header{
     height: 26.6rem ;
     background-size:25rem 26.6rem ;
     top: 8.2rem;
-    left: 5.5rem;
+    left: 5.45rem;
 }
 .modal .h1 {
     font-size: 2.5rem;
@@ -218,22 +218,38 @@ header{
    
 }
 
-.pubBox{width: 100%;}
-.proj_name01, .proj_name02, .proj_name03{
+
+.pubBox, .desBox{width: 100%;}
+.proj_name01, .proj_name02, .proj_name03, .proj_name04,
+.proj_name05, .proj_name06, .proj_name07, .proj_name08,
+.proj_name09, .proj_name10, .proj_name11, .proj_name12{
     position:static;
     font-size: 1.6rem;
-    padding: 0.7rem 8rem 0.7rem 2rem;
+    padding: 0.7rem 6.5rem 0.7rem 2rem;
     border: 0.1rem dashed #333;
     border-radius: 15rem;
 }
-.proj01, .proj02, .proj03{
+.proj01, .proj02, .proj03, .proj04, .proj05, .proj06,
+.proj07, .proj08, .proj09, .proj10, .proj11, .proj12{
     height: 1.6rem;
     margin: 0;
     margin-bottom: 6.5rem;
     display: block;
 }
-.proj_name01:hover, .proj_name02:hover, .proj_name03:hover{
+.proj_name01:hover, .proj_name02:hover, .proj_name03:hover
+{
     background-color:  #D9DBF4;
+}
+.proj_name04:hover, .proj_name05:hover, .proj_name06:hover, .proj_name07:hover, .proj_name08:hover,
+.proj_name09:hover, .proj_name10:hover, .proj_name11:hover, .proj_name12:hover{
+    background-color:  #DBF7D7;
+}
+
+.des01, .des02, .des03{
+    margin-right: 6.1rem;
+}
+.mySwiper {
+    height: 23.7rem;
 }
 .btn-top{
     position: fixed;
@@ -246,4 +262,68 @@ header{
 }
 footer{
     height: 6.1rem;
+}
+
+
+footer span {
+    font-weight: 600;
+    font-size: 0.8rem;
+}
+
+
+/*sub01 start*/
+
+.sub01Wrap, .sub02Wrap {
+    width: 32.5rem;
+}
+
+.sub01Wrap .h1, .sub02Wrap .h1 {
+    font-size: 3.5rem;
+}
+.sub01Wrap .list, .sub02Wrap .list {
+    margin-right: 5.5rem;
+}
+.list::after {
+    width: 3.55rem;
+}
+.explainBox .active {
+    left: 0rem;
+}
+.explanation p {
+   font-size: 0.8rem;
+}
+.explanation p br{
+    display: none;
+}
+.explanation span {
+    font-size: 0.899rem;
+}
+.portfolioBox>img{
+
+    width: 14.7rem;
+    object-fit: cover;
+    
+}
+/*sub02 start*/
+.explanation .sub02H2{
+    font-size: 1.5rem;
+    display: table-cell
+}
+.sub02Wrap .content{
+    display: block;
+}
+.sub02Wrap .content .tabMenu{
+    display: table-cell;
+    padding-top: 1.5rem;
+}
+.sub02Wrap .content .tabMenu li {
+    font-size: 1.2rem;
+    margin-right: 2rem;
+}
+.sub02Wrap .content .portfolioBox{
+    margin-top: 2.5rem;
+}
+
+.sub02Wrap .content .explanation p {
+    margin-top: 3.5rem;
 }

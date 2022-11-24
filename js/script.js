@@ -56,24 +56,37 @@ $('.navi').on('click', 'li', function() {
   $(this).addClass('active').siblings().removeClass('active');
 });
 
+$('.section01_me>a').click(function(){
+  $('#modalBG').addClass("active");
+});
+$('.modal .btn').click(function(){
+  $('#modalBG').removeClass("active");
+});
 
+if (matchMedia("screen and (min-width: 785px)").matches) {
+  // 786px 이상에서 사용할 스크립트
+  $(".pub01 a, .des01 a, .des02 a, .des03 a").mouseover(function(){
+    $(this).children("span").hide();
+  });
+  
+  $(".pub01 a, .des01 a, .des02 a, .des03 a").mouseout(function(){
+    $(".pub01 a span, .des01 a span, .des02 a span, .des03 a span").show();
+  });
 
-    $('.section01_me>a').click(function(){
-        $('#modalBG').addClass("active");
-      });
-      $('.modal .btn').click(function(){
-        $('#modalBG').removeClass("active");
-      });
-
-      $(".pub01 div, .des01 div, .des02 div, .des03 div").mouseover(function(){
-        $(this).children("span").hide();
-      });
-      
-      $(".pub01 div, .des01 div, .des02 div, .des03 div").mouseout(function(){
-        $(".pub01 div span, .des01 div span, .des02 div span, .des03 div span").show();
-      });
-
-      
+} else {
+  // 785px 미만에서 사용할 스크립트
+  $(".pub01 a, .des01 a, .des02 a, .des03 a").mouseover(function(){
+    $(this).children("span").show();
+  });
+  
+  $(".pub01 a, .des01 a, .des02 a, .des03 a").mouseout(function(){
+    $(".pub01 a span, .des01 a span, .des02 a span, .des03 a span").show();
+  });
+}
+    
+window.onresize = function(){
+  document.location.reload();
+};
 
       $(".pub_li").click(function(){
         $(".pubBox").show();

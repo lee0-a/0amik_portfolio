@@ -74,6 +74,7 @@ header{
     height: 100%;
     margin: 0 auto;
     background: url(../img/main_img.png); 
+    background-image: 100%;
     background-repeat: no-repeat;
     background-position:  14.1rem 2.7rem;
     background-size:36.5rem 39.25rem ;
@@ -433,10 +434,7 @@ header{
     left: 9.2rem;
     
 }
-.h1_BG img{
-  width: 100%;
-    
-}
+
 .workBox{
     display: flex;
     justify-content: space-between;
@@ -499,13 +497,7 @@ header{
     position: relative;
     
 }
-.pubBox{
-    position: absolute;
-    top: 0rem;
-    left: 0;
-    padding-top: 1.55rem;
-}
-.desBox{
+.pubBox, .desBox{
     position: absolute;
     top: 0rem;
     left: 0;
