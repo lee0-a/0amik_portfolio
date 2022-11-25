@@ -77,14 +77,163 @@ header{
 .sectoinWrap02{
     width: 50rem;
 }
+.mySkillWrap .h1{
+    font-size: 2.8rem;
+}
 .myskill_box>div {
     width: 19.3rem;
     font-size: 0.9rem;
+    margin-top: 2.5rem;
+}
+.tool .h2, .license .h2 {
+    font-size: 1.4rem;
 }
 .mySkillWrap .twinkle_01 {
     left: 16.9rem;
 }
 
 .mySkillWrap .twinkle_02 {
-    left: 31.8rem;
+    left: 31.5rem;
+}
+.mySkillWrap .twinkle_01 img, .mySkillWrap .twinkle_02 img {
+    width: 83%;
+}
+.tool_box div {
+    margin-bottom: 2.3rem;
+}
+.tool_box{
+    padding-top: 2rem;
+}
+.license_box {
+    padding-top: 1.4rem;
+}
+.bar{
+    height: 3.5rem;
+}
+.bar div {
+    font-size: 0.9rem;
+}
+
+.sectoinWrap03{
+    width: 50rem;
+}
+.sectoinWrap03 .h1 {
+    font-size: 2.7rem;
+}
+.h1_BG {
+    top: 4.7rem;
+}
+.h1_BG img{
+    width: 83%;
+}
+.left_box {
+    width: 13.4rem;
+}
+.about .h2, .cat .h2, .project .h2 {
+    font-size: 1.3rem;
+}
+.aboutBox .strong {
+    font-size: 1rem;
+}
+.aboutBox ul li {
+    font-size: 0.8rem;
+}
+.catBox .navi li {
+    font-size: 1rem;
+}
+.project {
+    width: 32.54rem;
+}
+.proj01 .fadein img, .proj03 .fadein img {
+    width: 85%;
+}
+.proj02 .fadein img {
+    width: 95%;
+}
+.proj04 .fadein img, .proj06 .fadein img {
+    width: 95%;
+}
+.proj05 .fadein img{
+    width: 105%;
+}
+.proj07 .fadein img{
+    width: 98%;
+}
+.proj08 .fadein img, .proj09 .fadein img {
+    width: 107%;
+}
+.proj10 .fadein img, .proj12 .fadein img {
+    width: 110%;
+}
+.proj11 .fadein img{
+    width: 125%;
+}
+.proj02, .proj05 {
+    margin: 10.2rem 0rem 0 -1rem;
+}
+.proj09 {
+    margin: 7.4rem 1rem 0 0;
+}
+.proj11 {
+    margin: 8rem 0 0 -2rem;
+}
+.proj12 {
+    margin-right: 1rem;
+}
+.proj_name01 {
+    top: 43%;
+    left: 42%;
+    font-size: 1.3rem;
+}
+.proj_name02 {
+    top: 40%;
+    left: 47%;
+    font-size: 1.3rem;
+}
+.proj_name03 {
+    top: 40%;
+    left: 43%;
+    font-size: 1.3rem;
+}
+.proj_name04 {
+    top: 39%;
+    left: 50%;
+    transform: translate(-51%,-40%);
+    font-size: 1.3rem;
+}
+.proj_name05 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-48%,-132%);
+    font-size: 1.3rem;
+}
+.proj_name06, .proj_name07 {
+    transform: translate(-67%,-111%);
+    font-size: 1.3rem;
+}
+.proj_name08 {
+    transform: translate(-57%,-105%);
+    font-size: 1.3rem;
+}
+.proj_name09 {
+    transform: translate(-58%,-111%);
+    font-size: 1.3rem;
+}
+.proj_name10 {
+    transform: translate(-56%,-50%);
+    font-size: 1.3rem;
+}
+.proj_name11 {
+    transform: translate(-59%,-144%);
+    font-size: 1.3rem;
+}
+.proj_name12{
+    transform: translate(-54%,-98%);
+    font-size: 1.3rem;
+}
+.pubBox, .desBox {
+    padding-top: 2rem;
+}
+.proj06 {
+    margin-right: 0;
 }
