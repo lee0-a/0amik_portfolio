@@ -1,1 +1,268 @@
 @charset "utf-8";
+html, body { max-width: 100%; overflow-x: hidden;}
+
+header{
+    height: 4rem;
+}
+.headerWrap{
+    width: 20rem;
+    height: 100%;
+    flex-direction: column;
+   align-items: flex-start;
+}
+.headerWrap ul{
+    flex-direction: column;
+    align-items: content ;
+    width: 100%;
+  
+
+}
+.headerWrap ul li{
+    padding-right: 0rem;
+}
+.nav__toogleBtn{
+    display: block;
+}
+#section01 {
+    height: 43rem;
+}
+
+.sectoinWrap01{
+    width: 22rem;
+    background-position: 0rem 11.7rem;
+    background-size: 21.5rem 23.25rem;
+}
+
+.headerWrap a {
+    padding: 1rem;
+}
+
+.headerWrap ul li {
+    padding-right: 0rem;
+    line-height: 2.5rem;
+    text-align: center;
+}
+.headerWrap .nav__menu{
+    display: none;
+}
+.headerWrap .nav__menu.active{
+    display: flex;
+    padding-top: 1rem;
+    z-index: 4;
+}
+.first {
+    font-size: 3.5rem;
+    text-align: left;
+    margin-bottom: 3rem;
+}
+.sec {
+    font-size: 8.7rem;
+    line-height: 8rem;
+}
+.headerWrap ul li:hover{
+    transform: none;
+    
+}
+.headerWrap ul li a:hover{
+    color: #222;
+    -webkit-text-stroke:none;
+}
+.main_txt .sec>span{
+    display: block;
+    text-align: left;
+}
+
+.circle {
+    top: 5.5rem;
+    left: 16.2rem;
+}
+.circle img {
+    width: 4.3rem;
+    height: 4.3rem;
+}
+.section01_me {
+    position: absolute;
+    top: 36rem;
+    right: 3rem;
+}
+.section01_me img{
+   width: 80%;
+}
+.section01_me::after {
+    display: none;
+}
+.sectoinWrap01 .txt {
+    top: 37.35rem;
+    right: 4.5rem;
+}
+.sectoinWrap01 .txt img {
+   width: 83%;
+}
+.sectoinWrap01 .flower01 {
+    top: 35rem;
+    right: 0.8rem;
+}
+.sectoinWrap01 .flower02 {
+    top: 33rem;
+    right: 6.5rem;
+}
+.sectoinWrap01 .flower03 {
+    top: 38rem;
+}
+.grass {
+    top: 43.3rem;
+    right: 2.7rem;
+}
+/* section02 start */
+.sectoinWrap02{
+    width: 20rem
+}
+
+
+#section02 {
+    height: 55.15rem;
+}
+.sectoinWrap03{
+    width: 20rem;
+
+}
+.mySkillWrap {
+    height: 45.85rem;
+}
+.myskill_box {
+     display: block;
+}
+.myskill_box>div {
+    width: 17rem;
+    margin: 0 auto;
+    margin-top: 1.5rem;
+}
+.mySkillWrap .h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.tool .h2, .license .h2 {
+    font-size: 1.2rem;
+}
+.tool_box {
+    font-size: 0.7rem;
+}
+.license ul li {
+    font-size: 0.8rem;
+}
+.mySkillWrap .twinkle_01 {
+    top: 5rem;
+    left: 4.1rem;
+}
+.mySkillWrap .twinkle_02 {
+    top: 2.4rem;
+    left: 16.4rem;
+}
+.mySkillWrap .twinkle_01 img, .mySkillWrap .twinkle_02 img{
+   width: 80%;
+}
+.bar {
+    height: 3.2rem;
+}
+.bar div {
+    top: 30%;
+}
+.bar div span {
+    font-size: 0.8rem;
+}
+
+/*section03 start*/
+#section03 {
+    height: 57.65rem;
+}
+.sectoinWrap03 .h1 {
+    font-size: 2.5rem;
+}
+.h1_BG {
+    top: 4.7rem;
+    left: 8.5rem;
+}
+.h1_BG img{
+    width: 83%;
+
+}
+.workBox {
+    display: block;
+
+}
+.left_box {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+}
+.about .h2, .cat .h2, .project .h2 {
+    font-size: 1.2rem;
+}
+.aboutBox ul li{
+    font-size: 0.8rem;
+} 
+.aboutBox .strong {
+    font-size: 1rem;
+}
+.catBox .navi li {
+    font-size: 1rem;
+}
+
+.project{
+    width: 18.05rem;
+    width: 22rem;
+    padding: 0 0.5rem;
+}
+.pub01, .des01, .des02, .des03{
+    display: block;
+    padding-top: 1.4rem;
+    
+}
+.pub01 img, .des01 img, .des02 img, .des03 img{
+    display: none;
+   
+}
+
+
+.pubBox, .desBox{width: 100%;}
+.proj_name01, .proj_name02, .proj_name03, .proj_name04,
+.proj_name05, .proj_name06, .proj_name07, .proj_name08,
+.proj_name09, .proj_name10, .proj_name11, .proj_name12{
+    position:static;
+    font-size: 1.2rem;
+    padding: 0.7rem 6.5rem 0.7rem 2rem;
+    border: 0.1rem dashed #333;
+    border-radius: 15rem;
+}
+.proj01, .proj02, .proj03, .proj04, .proj05, .proj06,
+.proj07, .proj08, .proj09, .proj10, .proj11, .proj12{
+    height: 1.6rem;
+    margin: 0;
+    margin-bottom: 6.5rem;
+    display: block;
+}
+.proj_name01:hover, .proj_name02:hover, .proj_name03:hover
+{
+    background-color:  #D9DBF4;
+}
+.proj_name04:hover, .proj_name05:hover, .proj_name06:hover, .proj_name07:hover, .proj_name08:hover,
+.proj_name09:hover, .proj_name10:hover, .proj_name11:hover, .proj_name12:hover{
+    background-color:  #DBF7D7;
+}
+
+.des01, .des02, .des03{
+    margin-right: 9.1rem;
+}
+.mySwiper {
+    height: 23.7rem;
+}
+.btn-top{
+    display: none;
+}
+footer span {
+    font-size: 0.8rem;
+}
+.modalBG{
+    display: none;
+}

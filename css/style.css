@@ -61,6 +61,12 @@ header{
     color: transparent;
     -webkit-text-stroke: 0.001rem #222;
 }
+.nav__toogleBtn{
+    position: absolute;
+    right: 1rem;
+    top: 1.5rem;
+    display: none;
+}
 
 #section01{
     width: 100%;

@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, minimum-scale=1">
+    <meta content="yes" name="apple-mobile-web-app-capable" />  
+    <meta name="viewport" content="user-scalable=0;"/>
+    <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1, user-scalable=no" name="viewport" />
     <title>0amik-Portfolio</title>
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" media="(min-width:787px) and (max-width:1540px)" href="css/laptop.css">
@@ -12,6 +15,7 @@
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
     <script defer src="js/script.js"></script>   
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/5ac74abf86.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -24,13 +28,16 @@
                 <li><a href="#sectoin03">Work</a></li>
             </ul>
         </div>
+        <a href="#" class="nav__toogleBtn">
+            <i class="fa-thin fa-bars"></i>
+        </a>
     </header>
 
     <div id="section01">
         <div class="sectoinWrap01">
             <div class="main_txt">
                 <div class="first">kim a yeong</div>
-                <div class="sec">Portfoloio</div>
+                <div class="sec"><span>Port</span><span>foloio</span></div>
             </div>
             <div class="circle">
                 <img src="img/circle.png" alt="hello">

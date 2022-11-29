@@ -7,6 +7,10 @@ header{
     height: 100%;
    
 }
+.headerWrap ul{
+    justify-content: space-around;
+    width: 20%;
+}
 #section01 {
     height: 37.4rem;
 }
@@ -237,3 +241,40 @@ header{
 .proj06 {
     margin-right: 0;
 }
+.btn-top{
+    right: 5rem;
+}
+.btn-top span{
+    font-size: 1rem;
+}
+
+
+/*sub01 start*/
+
+.sub01Wrap, .sub02Wrap {
+    width: 50rem;
+}
+
+.sub01Wrap .h1, .sub02Wrap .h1 {
+    font-size: 4rem;
+}
+.sub01Wrap .list, .sub02Wrap .list {
+    margin-right: 6.5rem;
+}
+.list::after {
+    width: 4.5rem;
+
+}
+.explainBox .active {
+    left: 8.8rem;
+}
+.explanation p {
+    font-size: 0.9rem;
+}
+.explanation p br{
+    display: inline-block;
+
+    content: " ";
+
+    padding: 0 2px;
+ }

@@ -122,6 +122,13 @@ $('.tabMenu').on('click', '.tabbtn', function() {
   $(this).addClass('active');
 });     
 
+//hamburger Menu
+const toggleBtn = document.querySelector('.nav__toogleBtn');
+const menu = document.querySelector('.nav__menu');
+
+toggleBtn.addEventListener('click',() => {
+menu.classList.toggle('active');
+});
 
 
 
