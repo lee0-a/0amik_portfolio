@@ -83,10 +83,23 @@ if (matchMedia("screen and (min-width: 785px)").matches) {
     $(".pub01 a span, .des01 a span, .des02 a span, .des03 a span").show();
   });
 }
+
+
+
+if (matchMedia("screen and (min-width: 480px)").matches) {
+  // 480px 이상에서 사용할 스크립트
+  window.onresize = function(){
+    document.location.reload();
+  };
+
+} else {
+  // 480px 미만에서 사용할 스크립트
+  window.onresize = function(){
+    document.location.doNotReload();
+  };
+}
     
-window.onresize = function(){
-  document.location.reload();
-};
+
 
       $(".pub_li").click(function(){
         $(".pubBox").show();
@@ -122,13 +135,18 @@ $('.tabMenu').on('click', '.tabbtn', function() {
   $(this).addClass('active');
 });     
 
-//hamburger Menu
+//header hamburger Menu
 const toggleBtn = document.querySelector('.nav__toogleBtn');
 const menu = document.querySelector('.nav__menu');
 
 toggleBtn.addEventListener('click',() => {
 menu.classList.toggle('active');
 });
+
+
+
+
+
 
 
 

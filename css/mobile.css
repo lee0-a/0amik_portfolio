@@ -5,7 +5,7 @@ header{
     height: 4rem;
 }
 .headerWrap{
-    width: 20rem;
+    max-width: 18rem;
     height: 100%;
     flex-direction: column;
    align-items: flex-start;
@@ -24,17 +24,17 @@ header{
     display: block;
 }
 #section01 {
-    height: 43rem;
+    height: 41rem;
 }
 
 .sectoinWrap01{
-    width: 22rem;
-    background-position: 0rem 11.7rem;
-    background-size: 21.5rem 23.25rem;
+    max-width: 18rem;
+    background-position: 0rem 12.7rem;
+    background-size: 17.5rem 20.25rem;
 }
 
 .headerWrap a {
-    padding: 1rem;
+    padding: 1rem 0;
 }
 
 .headerWrap ul li {
@@ -51,12 +51,12 @@ header{
     z-index: 4;
 }
 .first {
-    font-size: 3.5rem;
+    font-size: 2.7rem;
     text-align: left;
     margin-bottom: 3rem;
 }
 .sec {
-    font-size: 8.7rem;
+    font-size: 7.5rem;
     line-height: 8rem;
 }
 .headerWrap ul li:hover{
@@ -74,16 +74,16 @@ header{
 
 .circle {
     top: 5.5rem;
-    left: 16.2rem;
+    left: 12.5rem;
 }
 .circle img {
-    width: 4.3rem;
-    height: 4.3rem;
+    width: 4rem;
+    height: 4rem;
 }
 .section01_me {
     position: absolute;
-    top: 36rem;
-    right: 3rem;
+    top: 34rem;
+    right: 2.5rem;
 }
 .section01_me img{
    width: 80%;
@@ -92,30 +92,31 @@ header{
     display: none;
 }
 .sectoinWrap01 .txt {
-    top: 37.35rem;
-    right: 4.5rem;
+    top: 35.35rem;
+    left: 1.5rem;
 }
 .sectoinWrap01 .txt img {
    width: 83%;
 }
 .sectoinWrap01 .flower01 {
-    top: 35rem;
+    top: 33rem;
     right: 0.8rem;
 }
 .sectoinWrap01 .flower02 {
-    top: 33rem;
+    top: 31rem;
     right: 6.5rem;
 }
 .sectoinWrap01 .flower03 {
-    top: 38rem;
+    top: 36rem;
+    left: 2rem;
 }
 .grass {
-    top: 43.3rem;
-    right: 2.7rem;
+    top: 41.3rem;
+    right: 2.2rem;
 }
 /* section02 start */
 .sectoinWrap02{
-    width: 20rem
+    max-width: 18rem
 }
 
 
@@ -123,7 +124,7 @@ header{
     height: 55.15rem;
 }
 .sectoinWrap03{
-    width: 20rem;
+    max-width: 18rem;
 
 }
 .mySkillWrap {
@@ -133,16 +134,16 @@ header{
      display: block;
 }
 .myskill_box>div {
-    width: 17rem;
+    max-width: 15rem;
     margin: 0 auto;
-    margin-top: 1.5rem;
+    margin-top: 2.5rem;
 }
 .mySkillWrap .h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
     margin-bottom: 1rem;
 }
 .tool .h2, .license .h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .tool_box {
     font-size: 0.7rem;
@@ -152,11 +153,11 @@ header{
 }
 .mySkillWrap .twinkle_01 {
     top: 5rem;
-    left: 4.1rem;
+    left: 3rem;
 }
 .mySkillWrap .twinkle_02 {
     top: 2.4rem;
-    left: 16.4rem;
+    left: 14rem;
 }
 .mySkillWrap .twinkle_01 img, .mySkillWrap .twinkle_02 img{
    width: 80%;
@@ -176,14 +177,15 @@ header{
     height: 57.65rem;
 }
 .sectoinWrap03 .h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
+    padding-left: 1rem;
 }
 .h1_BG {
     top: 4.7rem;
-    left: 8.5rem;
+    left: 7.8rem;
 }
 .h1_BG img{
-    width: 83%;
+    width: 80%;
 
 }
 .workBox {
@@ -191,26 +193,27 @@ header{
 
 }
 .left_box {
-    width: 20rem;
+    max-width: 18rem;
     display: flex;
     justify-content: space-between;
-    padding: 0 0.5rem;
+    padding: 0 0.5rem 0 0;
+    margin: 0 auto;
 }
 .about .h2, .cat .h2, .project .h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 .aboutBox ul li{
-    font-size: 0.8rem;
+    font-size: 0.6rem;
 } 
 .aboutBox .strong {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 .catBox .navi li {
-    font-size: 1rem;
+    font-size: 0.8rem;
 }
 
 .project{
-    width: 18.05rem;
+    max-width: 18.05rem;
     width: 22rem;
     padding: 0 0.5rem;
 }
@@ -252,7 +255,7 @@ header{
 }
 
 .des01, .des02, .des03{
-    margin-right: 9.1rem;
+    margin-right: 5.1rem;
 }
 .mySwiper {
     height: 23.7rem;
@@ -264,5 +267,99 @@ footer span {
     font-size: 0.8rem;
 }
 .modalBG{
+    display: none;
+}
+
+/*sub*/
+.sub01Wrap{
+    height: 90rem;
+}
+.sub01Wrap .h1, .sub02Wrap .h1 {
+    font-size: 2.2rem;
+    margin-top: 9rem;
+}
+.sub01Wrap>p, .sub02Wrap>p {
+    font-size: 0.7rem;
+}
+.sub01Wrap, .sub02Wrap {
+    max-width: 16rem;
+}
+.sub01Wrap .list, .sub02Wrap .list {
+    font-size: 1rem;
+    margin-right: 4rem;
+}
+.content {
+    margin-top: 3rem;
+}
+.content .listBG {
+    width: 17%;
+    left: -0.7rem;
+   
+}
+.list::after {
+    width: 1.55rem;
+    left: 3rem;
+}
+.tabMenu li {
+    font-size: 1.2rem;
+}
+.tabMenu .active {
+    font-size: 1.2rem;
+}
+.explainBox .active {
+    left: 0rem;
+    margin: 0 auto;
+}
+.portfolioBox>img {
+    width: 100%;
+}    
+.portfolioBox {
+   display: block;
+}
+.explanation .h2 {
+    font-size: 1.5rem;
+    padding-top: 1rem;
+    margin-top: 3rem;
+}
+.explanation p {
+    font-size: 0.8rem;
+}
+.explanation span {
+    font-size: 0.8rem;
+}
+.explanation .btn {
+    font-size: 0.8rem;
+    padding: 0.8rem 1rem 0.8rem 1.6rem;
+    width: 7rem;
+    margin-top: 1.8rem;
+}
+
+/*sub02 start*/
+.sub02Wrap {
+    height: 96rem;
+}
+.explanation .sub02H2 {
+    font-size: 1.5rem;
+    margin-top: 3rem;
+    max-width: 16rem;
+}
+.sub02Wrap .content{
+    display: block;
+}
+.sub02Wrap .content .tabMenu{
+    display: table-cell;
+    padding-top: 1.5rem;
+}
+.portfolioBox {
+    padding-top: 2rem;
+}
+.sub02Wrap .tabMenu li {
+    font-size: 0.8rem;
+    margin-right: 1rem;
+}
+.sub02Wrap .tabMenu .active {
+    font-size: 0.8rem;
+}
+.tabMenu .active::after {
     display: none;
 }

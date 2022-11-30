@@ -7,4 +7,16 @@
                 <li><a href="sub02.html">Design</a></li>
             </ul>
         </div>
+        <a href="#" class="nav__toogleBtn">
+            <img src="img/hamburger.svg" alt="메뉴 아이콘">
+        </a>
     </header>
+    <script>
+        const toggleBtn = document.querySelector('.nav__toogleBtn');
+        const menu = document.querySelector('.nav__menu');
+
+        toggleBtn.addEventListener('click',() => {
+        menu.classList.toggle('active');
+});
+
+    </script>
