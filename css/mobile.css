@@ -131,6 +131,7 @@ header{
     border: 1px solid;
     text-align: center;
     padding: 2.5rem 2rem 2rem 2rem;
+    border-radius: 1rem;
 }
 
 .modal .h1 {
