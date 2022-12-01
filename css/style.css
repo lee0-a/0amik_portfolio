@@ -273,6 +273,7 @@ header{
     cursor: pointer;
     width: 0.9rem;
     height: 0.9rem;
+    background: none;
 }  
 .modal .btn:hover{
   opacity: 0.5; 
