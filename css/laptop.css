@@ -314,3 +314,7 @@ header{
 
     padding: 0 2px;
  }
+
+ .explanation p .tablet_br{
+    display: block;
+}

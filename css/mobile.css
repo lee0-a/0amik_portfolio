@@ -263,21 +263,21 @@ header{
     width: 22rem;
     padding: 0 0.5rem;
 }
-.pub01, .des01, .des02, .des03{
+.pub01, .pub02, .des01, .des02, .des03{
     display: block;
     padding-top: 1.4rem;
     
 }
-.pub01 img, .des01 img, .des02 img, .des03 img{
+.pub01 img, .pub02 img, .des01 img, .des02 img, .des03 img{
     display: none;
    
 }
 
 
-.pubBox, .desBox{width: 100%;}
+.desBox{width: 100%;}
 .proj_name01, .proj_name02, .proj_name03, .proj_name04,
 .proj_name05, .proj_name06, .proj_name07, .proj_name08,
-.proj_name09, .proj_name10, .proj_name11, .proj_name12{
+.proj_name09, .proj_name10, .proj_name11, .proj_name12, .proj_name13, .proj_name14{
     position:static;
     font-size: 1.2rem;
     padding: 0.7rem 6.5rem 0.7rem 2rem;
@@ -285,13 +285,13 @@ header{
     border-radius: 15rem;
 }
 .proj01, .proj02, .proj03, .proj04, .proj05, .proj06,
-.proj07, .proj08, .proj09, .proj10, .proj11, .proj12{
+.proj07, .proj08, .proj09, .proj10, .proj11, .proj12, .proj13, .proj14{
     height: 1.6rem;
     margin: 0;
     margin-bottom: 6.5rem;
     display: block;
 }
-.proj_name01:hover, .proj_name02:hover, .proj_name03:hover
+.proj_name01:hover, .proj_name02:hover, .proj_name03:hover, .proj_name13:hover, .proj_name14:hover
 {
     background-color:  #D9DBF4;
 }
@@ -303,7 +303,7 @@ header{
 .des01, .des02, .des03{
     margin-right: 5.1rem;
 }
-.mySwiper {
+.mySwiper, .mySwiper02 {
     height: 23.7rem;
 }
 .btn-top{
