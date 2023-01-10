@@ -122,7 +122,7 @@ if (matchMedia("screen and (min-width: 480px)").matches) {
       const btn = document.getElementsByClassName("tabbtn");
 const Box = document.getElementsByClassName("portfolioBox");
 
-for (var i = 0; i < btn.length; i++) {
+for (let i = 0; i < btn.length; i++) {
   btn[i].addEventListener("click", function() {
     document.querySelectorAll(".portfolioBox.active").forEach(function(item) {
       item.classList.remove("active");
