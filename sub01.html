@@ -1,134 +1,182 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>0amik-Portfolio</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" media="(min-width:787px) and (max-width:1540px)" href="css/laptop.css">
-    <link rel="stylesheet" media="(min-width:481px) and (max-width:786px)" href="css/tablet.css">
-    <link rel="stylesheet" media="(min-width:0px) and (max-width:480px)" href="css/mobile.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      media="(min-width:787px) and (max-width:1540px)"
+      href="css/laptop.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-width:481px) and (max-width:786px)"
+      href="css/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-width:0px) and (max-width:480px)"
+      href="css/mobile.css"
+    />
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script type="text/javascript">   
-        $(document).ready( function() {
-                            $("#headers").load("common/header.html");  //헤더 인클루드
-                            $("#footers").load("common/footer.html");  //푸터부분 인클루드
-                                        }
-                            );
-        </script>
-    <script defer src="js/script.js"></script>   
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#headers").load("common/header.html"); //헤더 인클루드
+        $("#footers").load("common/footer.html"); //푸터부분 인클루드
+      });
+    </script>
+    <script defer src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="headers"></div>
     <div class="sub01Wrap">
-        <div class="h1">
-            Web Publishing
-        </div>
-        <p>사이트 리뉴얼을 통해 퍼블리싱 진행하였습니다.</p>
-        <div class="content">
-            <img class="listBG" src="img/listBG.svg" alt="리스트 배경 이미지">
-            <span class="list">List</span>
-            <ul class="tabMenu">
-                <li class="tabbtn active" value="0">
-                    Quiznos
-                </li>
-                <li class="tabbtn" value="1">
-                    Melon
-                </li>
-                <li class="tabbtn" value="2">
-                    Arboretum
-                </li>
-            </ul>
-            <ul class="tabMenu">
-                <li class="tabbtn" value="3">
-                    Youtube
-                </li>
-                <li class="tabbtn" value="4">
-                    Starbucks
-                </li>
-                
-            </ul>
-            <div class="explainBox">
-                <div class="portfolioBox Quiznos active" id="0">
-                    <img src="img/quiznosPortfolio.png" alt="퀴즈노스 포트폴리오">
-                    <div class="explanation">
-                        <div class="h2">Quiznos</div>
-                        <p>기존 퀴즈노스 사이트 리뉴얼 디자인 후 퍼블리싱 진행하였습니다.<br>
-                            눈에 띄는 포인트 컬러들과 볼드한 폰트로 시각적으로 풍부한 효과를 주었습니다.<br>
-                            움직이는 애니메이션 효과와 aos, swiper를 활용하여 동적인 느낌을 주었습니다.
-                            </p>
-                            <img src="img/list_style02.svg" alt="동그라미">
-                            <span>디자인 - 100%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;퍼블리싱 - 100%</span>
-                            <div class="btn"><a href="http://portquiznos.dothome.co.kr/220531_quiznos/index.html" target="_blank">Go website</a></div>
-                    </div>
-                </div>
-                
-                <div class="portfolioBox Melon" id="1">
-                    <img src="img/MelonPortfolio.png" alt="멜론 포트폴리오">
-                    <div class="explanation">
-                        <div class="h2">Melon</div>
-                        <p>기존 멜론 사이트 리뉴얼 디자인 후 퍼블리싱 진행하였습니다.<br>
-                            앱 UI와 유사하게 어두운 배경에 심플한 분위기를 연출하였습니다.<br>
-                            aos, swiper를 활용하였으며 플레이바의 리스트 아이콘 클릭 시<br>
-                            팝업화면을 연출하였습니다.
-                            </p>
-                            <img src="img/list_style02.svg" alt="동그라미">
-                            <span>디자인 - 100%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;퍼블리싱 - 100%</span>
-                            <div class="btn"><a href="http://leey0218.dothome.co.kr/220412_melon/" target="_blank">Go website</a></div>
-                    </div>
-                </div>
-                <div class="portfolioBox Arboretum" id="2">
-                    <img src="img/ArboretumPortfolio.png" alt="수목원 포트폴리오">
-                    <div class="explanation">
-                        <div class="h2">Arboretum</div>
-                        <p>기존 푸른수목원 사이트 리뉴얼 디자인 후 퍼블리싱 진행하였습니다.<br>
-                            메인 페이지를 심플하게 정리하여 강조하고픈 부분이<br>
-                            사용자의 눈에 띌 수 있도록 디자인하였습니다.<br>
-                            사이트 방문 시 가장 큰 목적일 공지사항을 탭메뉴로 연출하였습니다.<br>
-                            그누보드 게시판을 연결하여 알림마당 페이지를 연출하였습니다.
-                            
-                            </p>
-                            <img src="img/list_style02.svg" alt="동그라미">
-                            <span>디자인 - 100%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;퍼블리싱 - 100%</span>
-                            <div class="btn"><a href="http://fay3349x.dothome.co.kr/garden/index.html" target="_blank">Go website</a></div>
-                    </div>
-                </div>
-                <div class="portfolioBox Youtube" id="3">
-                    <img src="img/youtubePortfolio.png" alt="유튜브 포트폴리오">
-                    <div class="explanation">
-                        <div class="h2">Youtube</div>
-                        <p>유튜브 사이트 클론 코딩하였습니다.<br><br class="tablet_br">
-                            반응형 사이트로 제작되었으며<br><br class="tablet_br">
-                            영상 제목 부분을 더보기 버튼으로 처리하였습니다.
-                            </p>
-                            <img src="img/list_style02.svg" alt="동그라미">
-                            <span>퍼블리싱 - 100%</span>
-                            <div class="btn"><a href="http://fay3349xx.dothome.co.kr/Portfolio-Youtube" target="_blank">Go website</a></div>
-                    </div>
-                </div>
-                <div class="portfolioBox Starbucks" id="4">
-                    <img src="img/starbucksPortfolio.png" alt="스타벅스 포트폴리오">
-                    <div class="explanation">
-                        <div class="h2">Starbucks</div>
-                        <p>스타벅스 사이트 클론 코딩하였습니다.<br><br class="tablet_br">
-                            서브메뉴 드롭 다운, 스크립트를 통한 애니메이션 등을<br><br class="tablet_br">
-                            중점으로 구현하였습니다.  
-                            </p>
-                            <img src="img/list_style02.svg" alt="동그라미">
-                            <span>퍼블리싱 - 100%</span>
-                            <div class="btn"><a href="http://fay3349xx.dothome.co.kr/Portfolio-Starbucks" target="_blank">Go website</a></div>
-                    </div>
-                </div>
-                
+      <div class="h1">Web Publishing</div>
+      <p>사이트 리뉴얼을 통해 퍼블리싱 진행하였습니다.</p>
+      <div class="content">
+        <img class="listBG" src="img/listBG.svg" alt="리스트 배경 이미지" />
+        <span class="list">List</span>
+        <ul class="tabMenu">
+          <li class="tabbtn active" value="0">Quiznos</li>
+          <li class="tabbtn" value="1">Melon</li>
+          <li class="tabbtn" value="2">Arboretum</li>
+        </ul>
+        <ul class="tabMenu">
+          <li class="tabbtn" value="3">Youtube</li>
+          <li class="tabbtn" value="4">Starbucks</li>
+        </ul>
+        <div class="explainBox">
+          <div class="portfolioBox Quiznos active" id="0">
+            <img src="img/quiznosPortfolio.png" alt="퀴즈노스 포트폴리오" />
+            <div class="explanation">
+              <div class="h2">Quiznos</div>
+              <p>
+                기존 퀴즈노스 사이트 리뉴얼 디자인 후 퍼블리싱
+                진행하였습니다.<br />
+                눈에 띄는 포인트 컬러들과 볼드한 폰트로 시각적으로 풍부한 효과를
+                주었습니다.<br />
+                움직이는 애니메이션 효과와 aos, swiper를 활용하여 동적인 느낌을
+                주었습니다.
+              </p>
+              <img src="img/list_style02.svg" alt="동그라미" />
+              <span
+                >디자인 - 100%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;퍼블리싱 -
+                100%</span
+              >
+              <div class="btn">
+                <a
+                  href="http://portquiznos.dothome.co.kr/220531_quiznos/index.html"
+                  target="_blank"
+                  >Go website</a
+                >
+              </div>
             </div>
-            
+          </div>
+
+          <div class="portfolioBox Melon" id="1">
+            <img src="img/MelonPortfolio.png" alt="멜론 포트폴리오" />
+            <div class="explanation">
+              <div class="h2">Melon</div>
+              <p>
+                기존 멜론 사이트 리뉴얼 디자인 후 퍼블리싱 진행하였습니다.<br />
+                앱 UI와 유사하게 어두운 배경에 심플한 분위기를
+                연출하였습니다.<br />
+                aos, swiper를 활용하였으며 플레이바의 리스트 아이콘 클릭 시<br />
+                팝업화면을 연출하였습니다.
+              </p>
+              <img src="img/list_style02.svg" alt="동그라미" />
+              <span
+                >디자인 - 100%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;퍼블리싱 -
+                100%</span
+              >
+              <div class="btn">
+                <a
+                  href="http://leey0218.dothome.co.kr/220412_melon/"
+                  target="_blank"
+                  >Go website</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="portfolioBox Arboretum" id="2">
+            <img src="img/ArboretumPortfolio.png" alt="수목원 포트폴리오" />
+            <div class="explanation">
+              <div class="h2">Arboretum</div>
+              <p>
+                기존 푸른수목원 사이트 리뉴얼 디자인 후 퍼블리싱
+                진행하였습니다.<br />
+                메인 페이지를 심플하게 정리하여 강조하고픈 부분이<br />
+                사용자의 눈에 띌 수 있도록 디자인하였습니다.<br />
+                사이트 방문 시 가장 큰 목적일 공지사항을 탭메뉴로
+                연출하였습니다.<br />
+                그누보드 게시판을 연결하여 알림마당 페이지를 연출하였습니다.
+              </p>
+              <img src="img/list_style02.svg" alt="동그라미" />
+              <span
+                >디자인 - 100%&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;퍼블리싱 -
+                100%</span
+              >
+              <div class="btn">
+                <a
+                  href="http://fay3349x.dothome.co.kr/garden/index.html"
+                  target="_blank"
+                  >Go website</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="portfolioBox Youtube" id="3">
+            <img src="img/youtubePortfolio.png" alt="유튜브 포트폴리오" />
+            <div class="explanation">
+              <div class="h2">Youtube</div>
+              <p>
+                유튜브 사이트 클론 코딩하였습니다.<br /><br class="tablet_br" />
+                반응형 사이트로 제작되었으며<br /><br class="tablet_br" />
+                영상 제목 부분을 더보기 버튼으로 처리하였습니다.
+              </p>
+              <img src="img/list_style02.svg" alt="동그라미" />
+              <span>퍼블리싱 - 100%</span>
+              <div class="btn">
+                <a
+                  href="http://fay3349xx.dothome.co.kr/Portfolio-Youtube"
+                  target="_blank"
+                  >Go website</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="portfolioBox Starbucks" id="4">
+            <img src="img/starbucksPortfolio.png" alt="스타벅스 포트폴리오" />
+            <div class="explanation">
+              <div class="h2">Starbucks</div>
+              <p>
+                스타벅스 사이트 클론 코딩하였습니다.<br /><br
+                  class="tablet_br"
+                />
+                서브메뉴 드롭 다운, 스크립트를 통한 애니메이션 등을<br /><br
+                  class="tablet_br"
+                />
+                중점으로 구현하였습니다.
+              </p>
+              <img src="img/list_style02.svg" alt="동그라미" />
+              <span>퍼블리싱 - 100%</span>
+              <div class="btn">
+                <a
+                  href="http://fay3349xx.dothome.co.kr/Portfolio-Starbucks"
+                  target="_blank"
+                  >Go website</a
+                >
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <div id="footers"></div>
-</body>
+  </body>
 </html>

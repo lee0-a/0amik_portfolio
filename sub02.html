@@ -1,203 +1,227 @@
 <!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>0amik-Portfolio</title>
-    <link href="css/style.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" media="(min-width:787px) and (max-width:1540px)" href="css/laptop.css">
-    <link rel="stylesheet" media="(min-width:481px) and (max-width:786px)" href="css/tablet.css">
-    <link rel="stylesheet" media="(min-width:0px) and (max-width:480px)" href="css/mobile.css">
+    <link href="css/style.css" type="text/css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      media="(min-width:787px) and (max-width:1540px)"
+      href="css/laptop.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-width:481px) and (max-width:786px)"
+      href="css/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(min-width:0px) and (max-width:480px)"
+      href="css/mobile.css"
+    />
     <script src="http://code.jquery.com/jquery-latest.min.js"></script>
-    <script type="text/javascript">   
-        $(document).ready( function() {
-                            $("#headers").load("common/header.html");  //헤더 인클루드
-                            $("#footers").load("common/footer.html");  //푸터부분 인클루드
-                                        }
-                            );
-        </script>
-    <script defer src="js/script.js"></script>   
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $("#headers").load("common/header.html"); //헤더 인클루드
+        $("#footers").load("common/footer.html"); //푸터부분 인클루드
+      });
+    </script>
+    <script defer src="js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
-    
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="headers"></div>
     <div class="sub02Wrap">
-        <div class="h1">
-            Design
-        </div>
-        <p>다양한 디자인 작업물을 확인할 수 있습니다.<br>
-            view more 버튼을 클릭해 아래로 이어지는 디자인을 확인할 수 있습니다.</p>
-        <div class="content">
-            <img class="listBG" src="img/listBG.svg" alt="리스트 배경 이미지">
-            <span class="list">List</span>
-            <ul class="tabMenu">
-                
-                        <li class="tabbtn active" value="0">
-                            Lgb&nbsp;Basic
-                        </li>
-                        <li class="tabbtn" value="1">
-                            Lgb&nbsp;ST
-                        </li>
-                        <li class="tabbtn" value="2">
-                            Carmon
-                        </li>
-                    </ul>
-                    <ul class="tabMenu">
-                        <li class="tabbtn" value="3">
-                            Canawa
-                        </li>
-                        <li class="tabbtn" value="4">
-                            NY&nbsp;Burger 
-                        </li>
-                        <li class="tabbtn" value="5">
-                            Cheongdampizza
-                        </li>
-                    </ul>
-                    <ul class="tabMenu">
-                        <li class="tabbtn" value="6">
-                            hanarum
-                        </li>
-                        <li class="tabbtn" value="7">
-                            Short&nbsp;form
-                        </li>
-                        <li class="tabbtn" value="8">
-                            NY&nbsp;Burger
-                        </li>
-                    </ul>
-            
-            <div class="explainBox">
-                <div class="portfolioBox LGBbasic active" id="0">
-                    <img src="img/LGBbasicPortfolio.png" alt="리김밥 베이직 포트폴리오">
-                    <div class="explanation">
-                        <div class="sub02H2">리김밥 베이직 랜딩페이지</div>
-                        <p>리김밥 베이직 창업 랜딩페이지입니다.<br>
-                            사이트에 유입되는 사용자들 대부분 창업을 목적을 하기 때문에<br>
-                            브랜드 본연의 심플하고 고급스러운 분위기를 살리면서도<br> 
-                            강조할 부분은 눈에 띌 수 있도록 디자인하였습니다.
-                            </p>
-                            <img src="img/list_style02.svg" alt="동그라미">
-                            <span>디자인 - 100%</span>
-                            <div class="btn"><a href="sub-LGBbasic.html" target="_blank">View More</a></div>
-                    </div>
-                </div>
-                
-                <div class="portfolioBox LGBst" id="1">
-                    <img src="img/LGBstPortfolio.png" alt="리김밥ST 포트폴리오">
-                    <div class="explanation">
-                        <div class="sub02H2">리김밥 ST 랜딩페이지</div>
-                        <p>리김밥 ST 창업 랜딩페이지입니다.<br>
-                            브랜드 컨셉에 맞추어 스트릿한 느낌으로 제작하였습니다.<br>
-                            눈에 띄는 원색의 컬러를 조화롭게 배치하였으며 퍼블리싱 작업 시 들어갈<br>
-                            애니메이션 효과를 고려하며 디자인하였습니다.
-                            </p>
-                            <img src="img/list_style02.svg" alt="동그라미">
-                            <span>디자인 - 100%</span>
-                            <div class="btn"><a href="sub-LGBst.html" target="_blank">View More</a></div>
-                    </div>
-                </div>
-                <div class="portfolioBox carmon" id="2">
-                    <img src="img/carmonPortfolio.png" alt="카몬 포트폴리오">
-                    <div class="explanation">
-                        <div class="sub02H2">카몬 사이트 디자인</div>
-                        <p>카몬 사이트 리뉴얼을 위해 제작하였습니다.<br>
-                            여러가지 모션이 들어가는 사이트이기 때문에 디자인은 심플하게 진행하였습니다.<br>
-                            view more 버튼을 클릭하면 서브페이지들을 확인 할 수 있습니다.
-                            
-                            </p>
-                            <img src="img/list_style02.svg" alt="동그라미">
-                            <span>디자인 - 100%</span>
-                            <div class="btn"><a href="sub-carmon.html" target="_blank">View More</a></div>
-                    </div>
-                </div>
-                <div class="portfolioBox canawa" id="3">
-                    <img src="img/canawaPortfolio.png" alt="카나와 포트폴리오">
-                    <div class="explanation">
-                        <div class="sub02H2">카나와 사이트 디자인</div>
-                        <p>카나와 사이트 리뉴얼을 위해 제작하였습니다.<br>
-                            원스크롤페이지로, 메인은 탭메뉴로 디자인 하였고 스크롤을 내리면<br>
-                            상단에 헤더가 나타나면서 슬라이드 영역이 나오도록 디자인하였습니다.<br>
-                            view more 버튼을 클릭하면 요소 클릭 시 나타나는 이벤트를  확인 할 수 있습니다.
-                            </p>
-                            <img src="img/list_style02.svg" alt="동그라미">
-                            <span>디자인 - 100%</span>
-                            <div class="btn"><a href="sub-canawa.html" target="_blank">View More</a></div>
-                    </div>
-                </div>
-                <div class="portfolioBox NYburger" id="4">
-                    <img src="img/NYburgerPortfolio.png" alt="뉴욕버거 포트폴리오">
-                    <div class="explanation">
-                        <div class="sub02H2">뉴욕버거 랜딩페이지</div>
-                        <p>뉴욕버거 창업 랜딩페이지 리뉴얼을 위해 제작하였습니다.<br>
-                            브랜드 컬러를 강조하여 제작하였습니다. <br>
-                            복잡한 창업비용 영역을 탭메뉴로 디자인하여 정리하였습니다. 
-                            </p>
-                            <img src="img/list_style02.svg" alt="동그라미">
-                            <span>디자인 - 100%</span>
-                            <div class="btn"><a href="sub-NYburger.html" target="_blank">View More</a></div>
-                    </div>
-                </div>
-                <div class="portfolioBox CDpizzaPortfolio" id="5">
-                    <img src="img/CDpizzaPortfolio.png" alt="청담피자 포트폴리오">
-                    <div class="explanation">
-                        <div class="sub02H2">청담피자 랜딩페이지</div>
-                        <p>청담피자 창업 랜딩페이지입니다.<br>
-                            고급스러운 이미지를 추구하는 브랜드 컨셉과 창업 랜딩페이지로서<br>
-                            강조되어야 할 부분을 고려하여 디자인하였습니다.<br>
-                            여러 모션을 염두하며 제작하였습니다.
-                            </p>
-                            <img src="img/list_style02.svg" alt="동그라미">
-                            <span>디자인 - 100%</span>
-                            <div class="btn"><a href="sub-CDpizza.html" target="_blank">View More</a></div>
-                    </div>
-                </div>
-                <div class="portfolioBox hanaremPortfolio" id="6">
-                    <img src="img/hanaremPortfolio.png" alt="한아름 포트폴리오">
-                    <div class="explanation">
-                        <div class="sub02H2">한아름 사이트</div>
-                        <p>한아름영농조합 사이트 제작을 위해 디자인하였습니다.<br>
-                            심플하게 디자인하여 내용이 강조될 수 있도록 제작하였습니다.<br>
-                            view more 버튼을 클릭하면 서브페이지들을 확인 할 수 있습니다.
-                            </p>
-                            <img src="img/list_style02.svg" alt="동그라미">
-                            <span>디자인 - 100%</span>
-                            <div class="btn"><a href="sub-hanarem.html" target="_blank">View More</a></div>
-                    </div>
-                </div>
-                <div class="portfolioBox shortformPortfolio" id="7">
-                    <img src="img/shortformPortfolio.png" alt="숏폼 포트폴리오">
-                    <div class="explanation">
-                        <div class="sub02H2">숏폼 컨텐츠 모집공고</div>
-                        <p>숏폼 컨텐츠 모집공고 제작하였습니다.<br>
-                            다양한 컨텐츠를 창작할 크리에이터 모집공고 취지에 맞게 통통튀고<br>
-                            트렌디 하게 디자인하였습니다.
-                            </p>
-                            <img src="img/list_style02.svg" alt="동그라미">
-                            <span>디자인 - 100%</span>
-                            <div class="btn"><a href="sub-shortform.html" target="_blank">View More</a></div>
-                    </div>
-                </div>
-                <div class="portfolioBox NYburgerPortfolio02" id="8">
-                    <img src="img/NYburgerPortfolio02.png" alt="뉴욕버거 포트폴리오">
-                    <div class="explanation">
-                        <div class="sub02H2">뉴욕버거 랜딩페이지</div>
-                        <p>뉴욕버거 랜딩페이지 10주년 기념 영역 추가 제작하였습니다.<br>
-                            10주년 기념 영역이기 때문에 화려한 느낌으로 디자인하였습니다.
-                            
-                            </p>
-                            <img src="img/list_style02.svg" alt="동그라미">
-                            <span>디자인 - 100%</span>
-                            <div class="btn"><a href="sub-NYburger02.html" target="_blank">View More</a></div>
-                    </div>
-                </div>
-                
+      <div class="h1">Design</div>
+      <p>
+        다양한 디자인 작업물을 확인할 수 있습니다.<br />
+        view more 버튼을 클릭해 아래로 이어지는 디자인을 확인할 수 있습니다.
+      </p>
+      <div class="content">
+        <img class="listBG" src="img/listBG.svg" alt="리스트 배경 이미지" />
+        <span class="list">List</span>
+        <ul class="tabMenu">
+          <li class="tabbtn active" value="0">Lgb&nbsp;Basic</li>
+          <li class="tabbtn" value="1">Lgb&nbsp;ST</li>
+          <li class="tabbtn" value="2">Carmon</li>
+        </ul>
+        <ul class="tabMenu">
+          <li class="tabbtn" value="3">Canawa</li>
+          <li class="tabbtn" value="4">NY&nbsp;Burger</li>
+          <li class="tabbtn" value="5">Cheongdampizza</li>
+        </ul>
+        <ul class="tabMenu">
+          <li class="tabbtn" value="6">hanarum</li>
+          <li class="tabbtn" value="7">Short&nbsp;form</li>
+          <li class="tabbtn" value="8">NY&nbsp;Burger</li>
+        </ul>
+
+        <div class="explainBox">
+          <div class="portfolioBox LGBbasic active" id="0">
+            <img
+              src="img/LGBbasicPortfolio.png"
+              alt="리김밥 베이직 포트폴리오"
+            />
+            <div class="explanation">
+              <div class="sub02H2">리김밥 베이직 랜딩페이지</div>
+              <p>
+                리김밥 베이직 창업 랜딩페이지입니다.<br />
+                사이트에 유입되는 사용자들 대부분 창업을 목적을 하기 때문에<br />
+                브랜드 본연의 심플하고 고급스러운 분위기를 살리면서도<br />
+                강조할 부분은 눈에 띌 수 있도록 디자인하였습니다.
+              </p>
+              <img src="img/list_style02.svg" alt="동그라미" />
+              <span>디자인 - 100%</span>
+              <div class="btn">
+                <a href="sub-LGBbasic.html" target="_blank">View More</a>
+              </div>
             </div>
-            
+          </div>
+
+          <div class="portfolioBox LGBst" id="1">
+            <img src="img/LGBstPortfolio.png" alt="리김밥ST 포트폴리오" />
+            <div class="explanation">
+              <div class="sub02H2">리김밥 ST 랜딩페이지</div>
+              <p>
+                리김밥 ST 창업 랜딩페이지입니다.<br />
+                브랜드 컨셉에 맞추어 스트릿한 느낌으로 제작하였습니다.<br />
+                눈에 띄는 원색의 컬러를 조화롭게 배치하였으며 퍼블리싱 작업 시
+                들어갈<br />
+                애니메이션 효과를 고려하며 디자인하였습니다.
+              </p>
+              <img src="img/list_style02.svg" alt="동그라미" />
+              <span>디자인 - 100%</span>
+              <div class="btn">
+                <a href="sub-LGBst.html" target="_blank">View More</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolioBox carmon" id="2">
+            <img src="img/carmonPortfolio.png" alt="카몬 포트폴리오" />
+            <div class="explanation">
+              <div class="sub02H2">카몬 사이트 디자인</div>
+              <p>
+                카몬 사이트 리뉴얼을 위해 제작하였습니다.<br />
+                여러가지 모션이 들어가는 사이트이기 때문에 디자인은 심플하게
+                진행하였습니다.<br />
+                view more 버튼을 클릭하면 서브페이지들을 확인 할 수 있습니다.
+              </p>
+              <img src="img/list_style02.svg" alt="동그라미" />
+              <span>디자인 - 100%</span>
+              <div class="btn">
+                <a href="sub-carmon.html" target="_blank">View More</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolioBox canawa" id="3">
+            <img src="img/canawaPortfolio.png" alt="카나와 포트폴리오" />
+            <div class="explanation">
+              <div class="sub02H2">카나와 사이트 디자인</div>
+              <p>
+                카나와 사이트 리뉴얼을 위해 제작하였습니다.<br />
+                원스크롤페이지로, 메인은 탭메뉴로 디자인 하였고 스크롤을
+                내리면<br />
+                상단에 헤더가 나타나면서 슬라이드 영역이 나오도록
+                디자인하였습니다.<br />
+                view more 버튼을 클릭하면 요소 클릭 시 나타나는 이벤트를 확인 할
+                수 있습니다.
+              </p>
+              <img src="img/list_style02.svg" alt="동그라미" />
+              <span>디자인 - 100%</span>
+              <div class="btn">
+                <a href="sub-canawa.html" target="_blank">View More</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolioBox NYburger" id="4">
+            <img src="img/NYburgerPortfolio.png" alt="뉴욕버거 포트폴리오" />
+            <div class="explanation">
+              <div class="sub02H2">뉴욕버거 랜딩페이지</div>
+              <p>
+                뉴욕버거 창업 랜딩페이지 리뉴얼을 위해 제작하였습니다.<br />
+                브랜드 컬러를 강조하여 제작하였습니다. <br />
+                복잡한 창업비용 영역을 탭메뉴로 디자인하여 정리하였습니다.
+              </p>
+              <img src="img/list_style02.svg" alt="동그라미" />
+              <span>디자인 - 100%</span>
+              <div class="btn">
+                <a href="sub-NYburger.html" target="_blank">View More</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolioBox CDpizzaPortfolio" id="5">
+            <img src="img/CDpizzaPortfolio.png" alt="청담피자 포트폴리오" />
+            <div class="explanation">
+              <div class="sub02H2">청담피자 랜딩페이지</div>
+              <p>
+                청담피자 창업 랜딩페이지입니다.<br />
+                고급스러운 이미지를 추구하는 브랜드 컨셉과 창업
+                랜딩페이지로서<br />
+                강조되어야 할 부분을 고려하여 디자인하였습니다.<br />
+                여러 모션을 염두하며 제작하였습니다.
+              </p>
+              <img src="img/list_style02.svg" alt="동그라미" />
+              <span>디자인 - 100%</span>
+              <div class="btn">
+                <a href="sub-CDpizza.html" target="_blank">View More</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolioBox hanaremPortfolio" id="6">
+            <img src="img/hanaremPortfolio.png" alt="한아름 포트폴리오" />
+            <div class="explanation">
+              <div class="sub02H2">한아름 사이트</div>
+              <p>
+                한아름영농조합 사이트 제작을 위해 디자인하였습니다.<br />
+                심플하게 디자인하여 내용이 강조될 수 있도록 제작하였습니다.<br />
+                view more 버튼을 클릭하면 서브페이지들을 확인 할 수 있습니다.
+              </p>
+              <img src="img/list_style02.svg" alt="동그라미" />
+              <span>디자인 - 100%</span>
+              <div class="btn">
+                <a href="sub-hanarem.html" target="_blank">View More</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolioBox shortformPortfolio" id="7">
+            <img src="img/shortformPortfolio.png" alt="숏폼 포트폴리오" />
+            <div class="explanation">
+              <div class="sub02H2">숏폼 컨텐츠 모집공고</div>
+              <p>
+                숏폼 컨텐츠 모집공고 제작하였습니다.<br />
+                다양한 컨텐츠를 창작할 크리에이터 모집공고 취지에 맞게
+                통통튀고<br />
+                트렌디 하게 디자인하였습니다.
+              </p>
+              <img src="img/list_style02.svg" alt="동그라미" />
+              <span>디자인 - 100%</span>
+              <div class="btn">
+                <a href="sub-shortform.html" target="_blank">View More</a>
+              </div>
+            </div>
+          </div>
+          <div class="portfolioBox NYburgerPortfolio02" id="8">
+            <img src="img/NYburgerPortfolio02.png" alt="뉴욕버거 포트폴리오" />
+            <div class="explanation">
+              <div class="sub02H2">뉴욕버거 랜딩페이지</div>
+              <p>
+                뉴욕버거 랜딩페이지 10주년 기념 영역 추가 제작하였습니다.<br />
+                10주년 기념 영역이기 때문에 화려한 느낌으로 디자인하였습니다.
+              </p>
+              <img src="img/list_style02.svg" alt="동그라미" />
+              <span>디자인 - 100%</span>
+              <div class="btn">
+                <a href="sub-NYburger02.html" target="_blank">View More</a>
+              </div>
+            </div>
+          </div>
         </div>
+      </div>
     </div>
 
     <div id="footers"></div>
-</body>
+  </body>
 </html>
